@@ -1,5 +1,7 @@
+import profile from './configs/profile';
+
 function App() {
-    return <div className="App"></div>;
+    return <div>{profile.name}</div>;
 }
 
 export default App;
