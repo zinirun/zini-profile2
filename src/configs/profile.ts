@@ -4,69 +4,89 @@ const profile = {
         backend: [
             {
                 name: 'Nest.js',
+                avatarSrc: '/assets/icons/nestjs.png',
             },
             {
                 name: 'Node.js',
+                avatarSrc: '/assets/icons/nodejs.png',
             },
             {
                 name: 'Typescript',
+                avatarSrc: '/assets/icons/typescript.png',
             },
             {
                 name: 'GraphQL',
+                avatarSrc: '/assets/icons/graphql.png',
             },
             {
                 name: 'TypeORM',
+                avatarSrc: '',
             },
             {
                 name: 'Sequelize',
+                avatarSrc: '/assets/icons/sequelize.png',
             },
             {
                 name: 'Go',
+                avatarSrc: '/assets/icons/go.png',
             },
         ],
         frontend: [
             {
                 name: 'React.ts',
+                avatarSrc: '/assets/icons/react.png',
             },
             {
                 name: 'Apollo',
+                avatarSrc: '',
             },
             {
                 name: 'JQuery',
+                avatarSrc: '/assets/icons/jquery.png',
             },
             {
                 name: 'HTML',
+                avatarSrc: '/assets/icons/html.png',
             },
             {
                 name: 'CSS',
+                avatarSrc: '/assets/icons/css.png',
             },
         ],
         database: [
             {
                 name: 'MySQL',
+                avatarSrc: '/assets/icons/mysql.png',
             },
             {
                 name: 'Redis',
+                avatarSrc: '/assets/icons/redis.png',
             },
             {
                 name: 'Amazon RDS',
+                avatarSrc: '',
             },
         ],
         infrastructure: [
             {
                 name: 'Docker',
+                avatarSrc: '/assets/icons/docker.png',
             },
             {
                 name: 'Linux',
+                avatarSrc: '/assets/icons/linux.png',
             },
             {
                 name: 'Amazon Web Services',
+                avatarSrc: '/assets/icons/aws.png',
             },
             {
                 name: 'NHN ToastCloud',
+                avatarSrc: '',
             },
             {
                 name: 'Naver Cloud Platform',
+                avatarSrc: '',
             },
         ],
     },
