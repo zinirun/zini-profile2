@@ -162,6 +162,10 @@ const profile = {
         univDept: 'Department of Software',
         grades: [
             {
+                subject: 'Capstone Design 2',
+                grade: 'A+',
+            },
+            {
                 subject: 'Operating System',
                 grade: 'A+',
             },

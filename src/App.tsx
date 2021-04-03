@@ -9,15 +9,6 @@ function App() {
     return (
         <div className={classes.root}>
             <Container className={classes.infoWrapper} maxWidth="md">
-                {/* <Grid
-                    item
-                    xs={12}
-                    sm={5}
-                    className={classes.imgContainer}
-                    component={Paper}
-                    elevation={5}
-                    square
-                /> */}
                 <div>
                     <p className={classes.name}>{profile.name}</p>
                 </div>

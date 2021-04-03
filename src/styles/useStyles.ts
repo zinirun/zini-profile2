@@ -10,21 +10,22 @@ const useStyles = makeStyles((theme) => ({
     infoWrapper: {
         background: 'rgba(0, 0, 0, 0.7)',
         color: 'white',
-        padding: 40,
+        padding: '4.5%',
     },
     name: {
-        fontSize: '2rem',
+        marginTop: 5,
+        fontSize: '2.3rem',
         fontWeight: 'bold',
     },
     sectionTitle: {
-        fontSize: '1.65rem',
+        fontSize: '1.6rem',
         fontWeight: 'bold',
         color: theme.palette.primary.main,
         marginTop: 45,
         marginBottom: 15,
     },
     itemTitle: {
-        fontSize: '1.05rem',
+        fontSize: '1.1rem',
         marginBottom: 8,
         fontWeight: 'bold',
         color: '#eee',
@@ -44,10 +45,10 @@ const useStyles = makeStyles((theme) => ({
         color: '#eee !important',
     },
     itemList: {
-        marginBottom: 5,
+        marginBottom: 8,
     },
     itemListText: {
-        fontSize: '1.025rem',
+        fontSize: '1.1rem',
     },
 }));
 

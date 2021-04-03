@@ -2,7 +2,8 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 export const theme = createMuiTheme({
     typography: {
-        fontFamily: "'Noto Sans KR', 'Roboto', sans-serif",
+        fontFamily:
+            "'-apple-system', 'Noto Sans KR', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'",
     },
     palette: {
         primary: {
