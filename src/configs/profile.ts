@@ -1,5 +1,5 @@
 const profile = {
-    name: '허전진',
+    name: 'Jeon Jin Heo',
     skills: {
         backend: [
             {
