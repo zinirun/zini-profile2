@@ -154,6 +154,83 @@ const profile = {
             link: 'https://github.com/zinirun/nginx-node-react-mysql-redis-docker-boilerplate',
         },
     ],
+    education: {
+        highName: 'Daeryun Highschool',
+        highLocation: 'Daegu, Korea',
+        univName: 'Dankook University',
+        univLocation: 'Yongin, Korea',
+        univDept: 'Department of Software',
+        grades: [
+            {
+                subject: 'Operating System',
+                grade: 'A+',
+            },
+            {
+                subject: 'Computer Network',
+                grade: 'A+',
+            },
+            {
+                subject: 'Algorithm',
+                grade: 'A',
+            },
+            {
+                subject: 'Design Pattern',
+                grade: 'A',
+            },
+            {
+                subject: 'Web Programming',
+                grade: 'A',
+            },
+            {
+                subject: 'System Programming',
+                grade: 'A+',
+            },
+            {
+                subject: 'Data Structure',
+                grade: 'A',
+            },
+            {
+                subject: 'Open Source Software',
+                grade: 'A+',
+            },
+            {
+                subject: 'Advanced Database',
+                grade: 'A+',
+            },
+            {
+                subject: 'Artificial Intelligence',
+                grade: 'A',
+            },
+            {
+                subject: 'OOP Programming',
+                grade: 'A+',
+            },
+            {
+                subject: 'Basic Database',
+                grade: 'A+',
+            },
+            {
+                subject: 'Computer Programming',
+                grade: 'A+',
+            },
+            {
+                subject: 'Network Structure',
+                grade: 'A',
+            },
+            {
+                subject: 'Digital Signal Processing',
+                grade: 'A+',
+            },
+            {
+                subject: 'Multimedia System',
+                grade: 'A+',
+            },
+            {
+                subject: 'Engineering Mathematics',
+                grade: 'A+',
+            },
+        ],
+    },
 };
 
 export default profile;
