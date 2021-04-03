@@ -8,21 +8,31 @@ const useStyles = makeStyles((theme) => ({
         backgroundPosition: 'center',
     },
     name: {
-        fontSize: '1.4rem',
+        fontSize: '1.45rem',
         fontWeight: 'bold',
     },
     sectionTitle: {
         fontSize: '1.15rem',
         fontWeight: 'bold',
         color: theme.palette.primary.main,
+        marginTop: 40,
     },
     itemTitle: {
         fontSize: '0.9rem',
         marginBottom: 8,
         fontWeight: 'bold',
+        color: '#222',
     },
     skillChip: {
         margin: theme.spacing(0.4),
+        color: '#333',
+        borderColor: '#ccc',
+    },
+    itemList: {
+        marginBottom: 5,
+    },
+    itemListText: {
+        fontSize: '0.95rem',
     },
 }));
 
