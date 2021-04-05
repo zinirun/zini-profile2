@@ -1,7 +1,6 @@
 import { Avatar, Chip, Container, Link } from '@material-ui/core';
 import profile from './configs/profile';
 import useStyles from './styles/useStyles';
-import GitHubIcon from '@material-ui/icons/GitHub';
 
 const { skills, projects, opensources, education } = profile;
 
@@ -11,7 +10,6 @@ function App() {
         <div className={classes.root}>
             <Container className={classes.infoWrapper} maxWidth="md">
                 <p className={classes.name}>{profile.name}</p>
-                <GitHubIcon />
                 <div>
                     <p className={classes.sectionTitle}>Skills</p>
                     <p className={classes.itemTitle}>Backend</p>
