@@ -42,12 +42,12 @@ const useStyles = makeStyles((theme) => ({
     skillChip: {
         margin: theme.spacing(0.5),
         color: '#eee',
-        borderColor: '#aaa',
+        borderColor: '#ddd',
     },
     gradeChip: {
         margin: theme.spacing(0.5),
         color: '#eee',
-        borderColor: '#aaa',
+        borderColor: '#ddd',
     },
     gradeAvatar: {
         background: '#eee',
