@@ -1,6 +1,7 @@
 import { Avatar, Chip, Container, Link } from '@material-ui/core';
 import profile from './configs/profile';
 import useStyles from './styles/useStyles';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const { skills, projects, opensources, education } = profile;
 
@@ -9,9 +10,8 @@ function App() {
     return (
         <div className={classes.root}>
             <Container className={classes.infoWrapper} maxWidth="md">
-                <div>
-                    <p className={classes.name}>{profile.name}</p>
-                </div>
+                <p className={classes.name}>{profile.name}</p>
+                <GitHubIcon />
                 <div>
                     <p className={classes.sectionTitle}>Skills</p>
                     <p className={classes.itemTitle}>Backend</p>
@@ -108,12 +108,15 @@ function App() {
                 <div>
                     <p className={classes.sectionTitle}>Education</p>
                     <p className={classes.itemTitle}>
-                        {education.highName} - {education.highLocation}
+                        {education.highName}{' '}
+                        <span className={classes.smallItalicText}>{education.highLocation}</span>
                     </p>
                     <p className={classes.itemTitle}>
-                        {education.univName} - {education.univLocation}
+                        {education.univName}{' '}
+                        <span className={classes.smallItalicText}>{education.univDept},</span>{' '}
+                        <span className={classes.smallItalicText}>{education.univLocation}</span>
                     </p>
-                    <p className={classes.itemTitle}>Courses taken</p>
+                    <p className={classes.itemTitle}>Related Courses Taken</p>
                     {education.grades.map((item, idx) => (
                         <Chip
                             avatar={<Avatar className={classes.gradeAvatar}>{item.grade}</Avatar>}

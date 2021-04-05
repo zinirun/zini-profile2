@@ -20,7 +20,7 @@ const profile = {
             },
             {
                 name: 'TypeORM',
-                avatarSrc: '',
+                avatarSrc: '/assets/icons/typeorm.png',
             },
             {
                 name: 'Sequelize',
@@ -38,7 +38,7 @@ const profile = {
             },
             {
                 name: 'Apollo',
-                avatarSrc: '',
+                avatarSrc: '/assets/icons/apollo.png',
             },
             {
                 name: 'JQuery',
@@ -64,7 +64,7 @@ const profile = {
             },
             {
                 name: 'Amazon RDS',
-                avatarSrc: '',
+                avatarSrc: '/assets/icons/rds.png',
             },
         ],
         infrastructure: [
@@ -82,7 +82,7 @@ const profile = {
             },
             {
                 name: 'NHN ToastCloud',
-                avatarSrc: '',
+                avatarSrc: '/assets/icons/toast.jpg',
             },
             {
                 name: 'Naver Cloud Platform',
