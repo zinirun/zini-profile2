@@ -44,6 +44,16 @@ const useStyles = makeStyles((theme) => ({
         color: '#eee',
         borderColor: '#ddd',
     },
+    socialChip: {
+        cursor: 'pointer',
+        margin: theme.spacing(0.5),
+        background: 'rgba(0, 0, 0, 0.5)',
+        color: 'white',
+        fontSize: '0.75rem',
+        '&:hover': {
+            backgroundColor: '#222',
+        },
+    },
     gradeChip: {
         margin: theme.spacing(0.5),
         color: '#eee',

@@ -1,5 +1,11 @@
 const profile = {
     name: 'Jeon Jin Heo',
+    social: {
+        github: 'https://www.github.com/zinirun',
+        blog: 'https://zinirun.github.io',
+        instagram: 'https://www.instagram.com/normalzini',
+        email: 'heojj97@gmail.com',
+    },
     skills: {
         backend: [
             {

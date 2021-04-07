@@ -2,7 +2,7 @@ import { Avatar, Chip, Container, Link } from '@material-ui/core';
 import profile from './configs/profile';
 import useStyles from './styles/useStyles';
 
-const { skills, projects, opensources, education } = profile;
+const { social, skills, projects, opensources, education } = profile;
 
 function App() {
     const classes = useStyles();
@@ -11,6 +11,33 @@ function App() {
             <Container className={classes.infoWrapper} maxWidth="md">
                 <p className={classes.name}>{profile.name}</p>
                 <div>
+                    <div>
+                        <Chip
+                            className={classes.socialChip}
+                            label="Github"
+                            component="a"
+                            target="_blank"
+                            href={social.github}
+                            size="small"
+                        />
+                        <Chip
+                            className={classes.socialChip}
+                            label="Dev Blog"
+                            component="a"
+                            target="_blank"
+                            href={social.blog}
+                            size="small"
+                        />
+                        <Chip
+                            className={classes.socialChip}
+                            label="Instagram"
+                            component="a"
+                            target="_blank"
+                            href={social.instagram}
+                            size="small"
+                        />
+                        <Chip className={classes.socialChip} label={social.email} size="small" />
+                    </div>
                     <p className={classes.sectionTitle}>Skills</p>
                     <p className={classes.itemTitle}>Backend</p>
                     {skills.backend.map((skill, idx) => (
