@@ -1,4 +1,4 @@
-import { Avatar, Chip, Container, Link } from '@material-ui/core';
+import { Avatar, Chip, Container, Grid, Link } from '@material-ui/core';
 import profile from './configs/profile';
 import useStyles from './styles/useStyles';
 
@@ -9,35 +9,45 @@ function App() {
     return (
         <div className={classes.root}>
             <Container className={classes.infoWrapper} maxWidth="md">
-                <p className={classes.name}>{profile.name}</p>
+                <Grid className={classes.nameWrapper} container alignItems="center">
+                    <Grid item xs={12} sm={5}>
+                        <span className={classes.name}>{profile.name}</span>
+                    </Grid>
+                    <Grid item xs={12} sm={7}>
+                        <div>
+                            <Chip
+                                className={classes.socialChip}
+                                label="Github"
+                                component="a"
+                                target="_blank"
+                                href={social.github}
+                                size="small"
+                            />
+                            <Chip
+                                className={classes.socialChip}
+                                label="Dev Blog"
+                                component="a"
+                                target="_blank"
+                                href={social.blog}
+                                size="small"
+                            />
+                            <Chip
+                                className={classes.socialChip}
+                                label="Instagram"
+                                component="a"
+                                target="_blank"
+                                href={social.instagram}
+                                size="small"
+                            />
+                            <Chip
+                                className={classes.socialChip}
+                                label={social.email}
+                                size="small"
+                            />
+                        </div>
+                    </Grid>
+                </Grid>
                 <div>
-                    <div>
-                        <Chip
-                            className={classes.socialChip}
-                            label="Github"
-                            component="a"
-                            target="_blank"
-                            href={social.github}
-                            size="small"
-                        />
-                        <Chip
-                            className={classes.socialChip}
-                            label="Dev Blog"
-                            component="a"
-                            target="_blank"
-                            href={social.blog}
-                            size="small"
-                        />
-                        <Chip
-                            className={classes.socialChip}
-                            label="Instagram"
-                            component="a"
-                            target="_blank"
-                            href={social.instagram}
-                            size="small"
-                        />
-                        <Chip className={classes.socialChip} label={social.email} size="small" />
-                    </div>
                     <p className={classes.sectionTitle}>Skills</p>
                     <p className={classes.itemTitle}>Backend</p>
                     {skills.backend.map((skill, idx) => (

@@ -21,8 +21,10 @@ const useStyles = makeStyles((theme) => ({
         color: 'white',
         padding: '4.5%',
     },
+    nameWrapper: {
+        marginBottom: 20,
+    },
     name: {
-        marginTop: 5,
         fontSize: '2.3rem',
         fontWeight: 'bold',
     },
@@ -35,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     },
     itemTitle: {
         fontSize: '1.05rem',
-        marginBottom: 8,
+        marginBottom: 10,
         fontWeight: 'bold',
         color: '#eee',
     },
