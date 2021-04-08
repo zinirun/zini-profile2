@@ -9,42 +9,36 @@ function App() {
     return (
         <div className={classes.root}>
             <Container className={classes.infoWrapper} maxWidth="md">
-                <Grid className={classes.nameWrapper} container alignItems="center">
-                    <Grid item xs={12} sm={5}>
+                <Grid className={classes.nameWrapper} container alignItems="center" spacing={3}>
+                    <Grid item xs={12} sm={6}>
                         <span className={classes.name}>{profile.name}</span>
                     </Grid>
-                    <Grid item xs={12} sm={7}>
-                        <div>
-                            <Chip
-                                className={classes.socialChip}
-                                label="Github"
-                                component="a"
-                                target="_blank"
-                                href={social.github}
-                                size="small"
-                            />
-                            <Chip
-                                className={classes.socialChip}
-                                label="Dev Blog"
-                                component="a"
-                                target="_blank"
-                                href={social.blog}
-                                size="small"
-                            />
-                            <Chip
-                                className={classes.socialChip}
-                                label="Instagram"
-                                component="a"
-                                target="_blank"
-                                href={social.instagram}
-                                size="small"
-                            />
-                            <Chip
-                                className={classes.socialChip}
-                                label={social.email}
-                                size="small"
-                            />
-                        </div>
+                    <Grid item xs={12} sm={6}>
+                        <Chip
+                            className={classes.socialChip}
+                            label="Github"
+                            component="a"
+                            target="_blank"
+                            href={social.github}
+                            size="small"
+                        />
+                        <Chip
+                            className={classes.socialChip}
+                            label="Dev Blog"
+                            component="a"
+                            target="_blank"
+                            href={social.blog}
+                            size="small"
+                        />
+                        <Chip
+                            className={classes.socialChip}
+                            label="Instagram"
+                            component="a"
+                            target="_blank"
+                            href={social.instagram}
+                            size="small"
+                        />
+                        <Chip className={classes.socialChip} label={social.email} size="small" />
                     </Grid>
                 </Grid>
                 <div>

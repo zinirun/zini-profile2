@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
     root: {
-        background: 'linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)',
+        background: 'linear-gradient(-45deg, #9723D5, #3F23D5, #23A6D5, #23D5AB)',
         backgroundSize: '400% 400%',
         animation: `$gradient 15s ease infinite`,
     },
