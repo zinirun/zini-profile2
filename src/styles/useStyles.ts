@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     socialChip: {
         cursor: 'pointer',
         margin: theme.spacing(0.5),
-        background: 'rgba(0, 0, 0, 0.5)',
+        background: 'rgba(0, 0, 0, 0.4)',
         color: 'white',
         fontSize: '0.75rem',
         '&:hover': {
