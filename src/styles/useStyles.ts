@@ -1,9 +1,9 @@
 import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
     root: {
-        background: 'linear-gradient(-45deg, #9723D5, #3F23D5, #23A6D5, #23D5AB)',
+        background: 'linear-gradient(-45deg, #1CC78E, #1CB1C7, #1C52C7, #421CC7)',
         backgroundSize: '400% 400%',
-        animation: `$gradient 15s ease infinite`,
+        animation: `$gradient 13s ease infinite`,
     },
     '@keyframes gradient': {
         '0%': {
