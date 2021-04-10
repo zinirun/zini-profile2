@@ -2,6 +2,9 @@
 
 new version of [zini-profile](https://github.com/zinirun/zini-profile)
 
+<img src=".github/desktop.png" width="600" alt="desktop-preview" />
+
+
 ## Create yours
 
 - Clone this repo
