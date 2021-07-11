@@ -168,7 +168,15 @@ const profile = {
         univDept: 'Department of Software',
         grades: [
             {
+                subject: 'Capstone Design 1',
+                grade: 'A+',
+            },
+            {
                 subject: 'Capstone Design 2',
+                grade: 'A+',
+            },
+            {
+                subject: 'Secure Coding',
                 grade: 'A+',
             },
             {
@@ -192,8 +200,16 @@ const profile = {
                 grade: 'A',
             },
             {
+                subject: 'Web Application Architecture',
+                grade: 'A+',
+            },
+            {
                 subject: 'System Programming',
                 grade: 'A+',
+            },
+            {
+                subject: 'Big Data Processing',
+                grade: 'A',
             },
             {
                 subject: 'Data Structure',
